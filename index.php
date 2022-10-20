@@ -33,5 +33,12 @@
         <input type="text" name="id">
         <input type="submit" value="Enviar">
     </form>
+
+    <ul>
+        <?php
+            foreach($lista as $item){
+                echo "<li>" . $item . "</li>";
+            }
+        ?>
 </body>
 </html>
